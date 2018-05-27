@@ -144,7 +144,9 @@ a:visited {
 #FooterColor {
 	color:#ffdab6;
 	height:-4px;
-	font-size:18px;
+	font-size:16px;
+	margin-left:1%;
+	margin-right:1%;
 }
 
 footer{
@@ -152,4 +154,25 @@ footer{
 	/*position:relative;*/
 	position:fixed;
     bottom:0;
+}
+
+#PaddedDiv{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#BibLink{
+	all:unset;
+	text-decoration: underline;
+}
+
+#BibLink:hover{
+	cursor:pointer;
+	text-decoration: underline;
+	/* text-decoration: overline; */
+	color:White;
+}
+
+#BibLink:visited{
+	color:White;
 }
