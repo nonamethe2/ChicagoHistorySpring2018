@@ -176,3 +176,8 @@ footer{
 #BibLink:visited{
 	color:White;
 }
+
+#LargeQuoteIndent{
+	margin-left:2%;
+	margin-right:5%;
+}
